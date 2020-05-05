@@ -17,7 +17,7 @@ export class Login extends Component{
                     if(e==="NPRSDP" || e==="nprsdp")
                         this.setState({displayName: "Ádám"})
                                    
-                          this.setState( { email: e } ) }}   
+                        this.setState( { email: e } ) }}   
                     onEnter={ () => this.onClick() }
                      autofocus={ true }/> 
               
